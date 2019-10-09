@@ -16,4 +16,4 @@ def get_random_word(min_word_length):
             num_words_processed += 1
             if random.randint(1, num_words_processed) == 1:
                 curr_word = word
-            return curr_word
+        return curr_word
