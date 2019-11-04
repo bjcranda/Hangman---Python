@@ -3,6 +3,7 @@ import random
 WORDLIST = 'wordlist.txt'
 
 
+# Getting a random word from the wordlist file
 def get_random_word(min_word_length):
     num_words_processed = 0
     curr_word = None
